@@ -91,3 +91,22 @@ regions are isolated and independent, and don't replicate across the regions.
 an availability zone is an isolated location within a geographical region and is a physical data center within a specific region
 
 failures are also independent.
+
+## shared responsibility
+
+so aws shares a responsibility with you:
+
+this is what aws does for you:
+
+1. it secures edge locations
+2. monitors physical device security
+3. provides physical access control to hardware/software
+4. database patching
+5. discarding physical storage devices
+
+this is what aws expects you to do:
+
+1. manage aws identity and Access Management
+2. encrypt your data
+3. preventing and detecting when an aws account has been compromised
+4. restricting access to aws services to only those users who need it.
