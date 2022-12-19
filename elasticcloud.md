@@ -16,4 +16,4 @@ EC2 is found in the compute section of aws management console.
 ## [EC2](https://aws.amazon.com/ec2/)
 
 The EC2 Dashboard is home to a variety of related services, such as Amazon Machine Images, Elastic Block Store (EBS), Load Balancer, and Auto Scaling.
-[image](images/ec2dashboard.png)
+![image](images/ec2dashboard.png)
