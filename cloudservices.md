@@ -1,0 +1,66 @@
+# common cloud services
+
+there is an high level view of how cloud services work:
+1. physical infrastructure layer - this represents the physical infrastructure like the physical servers, network equipments, storage devices, it includes the data centers and the racks of servers containing the cpu, memory and hard drives
+2. virtual infrastructure layer - it represents the software environment and the capabilities that virtualize the physical infrastructure.
+3. orchestration layer - scalability, level of resilience, orchestrator locates the servers in a data center and provides  the services requested by customer
+4. services layer - they often provide a friendly portal, web application or mobile application where customers can interact with their services.
+5. customer application layer
+6. monitoring layer
+7. security
+
+## compute in cloud computing environment
+
+a combination of the following resources:
+
+1. processing power
+2. memory
+3. storage
+4. network
+
+these computing services are pretty much what cloud providers provide
+
+## virtual machine
+
+this is a piece of software that emulates a physical machine.
+
+it acts as a physical computer with cpu, memory, storage and network but it is completely managed by a software.
+
+to enable virtual machines we can use the hypervisor softwares.
+
+hyperversor lays in between the parent os and the vrtual machines.
+
+all major cloud vendors provide services to host virtual machines:
+
+1. microsoft  azure calls them azure virtual machines
+2. amazon calls them EC2
+3. google calls them google compute engine.
+
+## microservices
+
+this is a software development approach where a software is developed as mini-apps that talk to each other via apis.
+
+this mini-apps are independent services.
+
+the opposite of microservices are called monolith apps - where all components and functionalities of applications are tied to a single instance.
+
+## containers
+
+this is a software package with all it needs to run in any environment such as code, runtime configuration and dependencies.
+
+containerization helps us in moving the application from one platform to another.
+
+containers virtualize the operating system  since they share a cpu, memory, storage and networking resources from the underlying operating system.
+
+the difference between containers and virtual machines is that VMs create a completely new virtual machine with its own os, hardware and stuff while containers extends the underlying operating system and hardware.
+
+### steps to containerization
+
+1. create a container image - this defines our application and what it needs to run
+2. it creates a container from the image in any environment we want it to run on.
+
+## orchestration
+
+as we build containers and container images, we need a way to keep them alive and manage them because at some point they will be cumbersome and many to manage traditionally.
+
+here is where orchestrators like K8(Kubernetes) comes into play.
