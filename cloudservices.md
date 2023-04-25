@@ -64,3 +64,18 @@ the difference between containers and virtual machines is that VMs create a comp
 as we build containers and container images, we need a way to keep them alive and manage them because at some point they will be cumbersome and many to manage traditionally.
 
 here is where orchestrators like K8(Kubernetes) comes into play.
+
+## HORIZONTAL SCALING AND VERTICAL SCALING
+
+### vertical scaling
+
+traditionally when we run out of memory and other resources we would always extend the services by adding more that is more memory more cpu and more disk space or more ram to a single machine. that is vertical scaling.
+
+This can be achieved by upgrading the hardware components of the machine, such as replacing the processor with a faster one or adding more RAM. Vertical scaling is typically used for applications that have high resource requirements, such as databases or virtualization environments.
+
+
+### horizontal scaling
+
+Horizontal scaling, also known as scaling out, involves adding more machines to a system in order to increase its capacity. This can be achieved by adding more servers to a cluster or distributing the workload across multiple machines. Horizontal scaling is typically used for applications that need to handle large numbers of concurrent users, such as web applications or messaging systems.
+
+the hack here is adding more machines not more resources
