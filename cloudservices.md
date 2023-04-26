@@ -79,3 +79,28 @@ This can be achieved by upgrading the hardware components of the machine, such a
 Horizontal scaling, also known as scaling out, involves adding more machines to a system in order to increase its capacity. This can be achieved by adding more servers to a cluster or distributing the workload across multiple machines. Horizontal scaling is typically used for applications that need to handle large numbers of concurrent users, such as web applications or messaging systems.
 
 the hack here is adding more machines not more resources
+
+### EVENT-DRIVEN ARCHITECTURE
+
+An event is a change in state triggered by some actions 
+
+so for an event driven architecture, we use events to communicate between different services decoupled from each other.
+
+this particular architecture is used to build microservices and serverless applications
+
+Event producers and consumers are decoupled from each other and often don't have any knowledge of each other. It makes this approach highly scalable and suitable for creating highly distributed applications. Consumers can respond to events in almost real-time.
+
+Event-driven architecture can be cost-effective since we don’t poll servers to determine if anything has changed. Instead, we are notified whenever any event of interest occurs and we can take the necessary action.
+
+### serverless
+
+this includes things like using firebase for backend - we don't normally need to write our own backend, we just need to use the already provided server
+
+severless involves two things:
+
+1. Backend as a service (BAAS)
+2. Function as a service(FAAS)
+
+FaaS works in an event-driven way where functions are triggered by events such as HTTP requests or timer-based triggers
+
+N/B: In cloud computing, "compute" refers to the resources used to process data and run applications in the cloud. This typically includes virtual machines (VMs) or containers that provide computing power, storage, and networking capabilities
