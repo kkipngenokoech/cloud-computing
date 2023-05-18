@@ -104,3 +104,53 @@ severless involves two things:
 FaaS works in an event-driven way where functions are triggered by events such as HTTP requests or timer-based triggers
 
 N/B: In cloud computing, "compute" refers to the resources used to process data and run applications in the cloud. This typically includes virtual machines (VMs) or containers that provide computing power, storage, and networking capabilities
+
+
+## service models for cloud computing
+
+![service models for cloud](images/servicemodels.png)
+
+in traditional cloud computing, the user/client manages:
+
+1. Application
+2. Data
+3. Runtime Environment
+4. Middleware
+5. OS
+6. Virtualization
+7. server
+8. storage
+9. network
+
+### IAAS 
+
+in infrastructure as a service, the user/client manages:
+
+1. Application
+2. Data
+3. Runtime Environment
+4. Middleware
+5. OS
+
+here the cloud provider provides the infrastructure: servers, storage devices networks and virtual resources 
+
+
+### PAAS
+
+in platform as a service, the user/client manages:
+
+1. Application
+2. data
+
+here the cloud provider does two things to you:
+
+1. provide infrastructure : servers, storage devices networks and virtual resources
+2. provide the application deployment environment : operating system, middleware and software running environment
+
+## SAAS
+
+in software as a service, the user/client manages:
+
+he manages nothing, everythin is taken care of by the cloud
+
+The cloud platform provides all resources, services, and maintenance. Users only need to use applications.
